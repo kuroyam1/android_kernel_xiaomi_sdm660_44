@@ -70,6 +70,8 @@ if [ ! -d "$TOOLCHAIN_DIRECTORY" ]; then
     tar -xzf file.tar.gz -C $TOOLCHAIN_DIRECTORY/custom-clang
 fi
 
+git submodule update --init --recursive
+
 if [ -d "$TOOLCHAIN_DIRECTORY/custom-clang" ]; then
     echo -e "${bldgrn}"
     echo "clang is ready"

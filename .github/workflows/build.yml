@@ -19,4 +19,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: lavender
-          path: /home/runner/work/kernel_xiaomi_lavender/kernel_xiaomi_lavender/Sus-*.zip
+          path: /home/runner/work/android_kernel_xiaomi_sdm660_44/android_kernel_xiaomi_sdm660_44/Sus-*.zip
